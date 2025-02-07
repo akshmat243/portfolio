@@ -345,7 +345,7 @@
 			<section id="contact" class="dark_bg section-padding">      
 				<div class="contact-form">
 					<div class="container">
-						<h2 class="section-title wow flipInX" data-wow-delay="0.4s">Contact <span>Us</span></h2>  
+						<h2 class="section-title wow flipInX" data-wow-delay="0.4s">Contact <span>Me</span></h2>  
 						<style>
 							.center-div {
 							  margin: 0 auto; /* This will center the div horizontally */
@@ -356,41 +356,9 @@
 						<div class="row contact-form-area">   												
 							<div class="col-md-12 col-lg-8 col-sm-8 center-div">
 								<div class="contact_form wow fadeInLeft">
-									<form action="contact.php" method="POST" id="main_contact_form">
-										<div class="contact_input_area">
-											<div id="success_fail_info"></div>
-											<div class="row">
-												<!-- Form Group -->
-												<div class="col-12">
-													<div class="form-group">
-														<input type="text" name="name" class="form-control" placeholder="Name" required="required">
-													</div>
-												</div>
-												<!-- Form Group -->
-												<div class="col-12 col-lg-6">
-													<div class="form-group">
-														<input type="email" name="email" class="form-control" placeholder="Email" required="required">
-													</div>
-												</div>
-												<!-- Form Group -->
-												<div class="col-12 col-lg-6">
-													<div class="form-group">
-														<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
-													</div>
-												</div>
-												<!-- Form Group -->
-												<div class="col-12">
-													<div class="form-group">
-														<textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
-													</div>
-												</div>
-												<!-- Button -->
-												<div class="col-12 text-center">
-													<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-secondary ct_btn" title="Submit Your Message!">Send Message</button>
-												</div>
-											</div>
-										</div>
-									</form>
+									<div class="col-12 text-center">
+										<button type="submit"  onclick="location.href='mailto:akshmat243@gmail.com';" id="submitButton" class="btn btn-secondary ct_btn" title="Send Enquiry">Let's Connect</button>
+									</div>
 								</div>
 							</div>
 							
@@ -399,14 +367,37 @@
 				</div>   
 			</section>
 		<!-- Contact Section End -->
-
+		<style>
+			<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		  />
+		  <link rel="stylesheet" href="assets/css/style.css" />
+		  <link rel="stylesheet" href="assets/css/utilities.css" />
+		</style>
 		<!-- Footer Section Start -->
 			<footer class="footer-area">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
-								<p>Copyright © 2024  | All Rights Reserved</p>
+								<div class="container">
+									
+									<!-- Social links -->
+									<div class="social">
+									  <a href="#" target="_blank"
+										><img src="assets/facebook-icon.svg" alt="Facebook" style="margin-right: 15px;"
+									  /></a>
+									  <a href="#" target="_blank"><img src="assets/twitter-icon.svg" alt="Twitter" style="margin-right: 15px;" /></a>
+									  <a href="https://www.linkedin.com/in/akshmat243/" target="_blank"
+										><img src="assets/linkedin-icon.svg" alt="Linkedin" style="margin-right: 15px;"
+									  /></a>
+									  <a href="https://github.com/akshmat243" target="_blank"><img src="assets/github-icon.svg" alt="GitHub"  style="margin-right: 15px;"/></a>
+									</div>
+									<p style="margin-top:20px;">Copyright &copy; 2025 <span id="datee"></span>, All rights reserved</p>
+								  </div>
 							</div>
 						</div>
 					</div>
@@ -418,8 +409,10 @@
 		<a href="#" class="back-to-top">
 			<i class="fa fa-arrow-up"></i>
 		</a>
-
+		
+		
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="assets/js/script.js"></script>
 		<script src="assets/js/jquery-min.js"></script>
 		<script src="assets/js/popper.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
@@ -438,6 +431,8 @@
 		<script src="assets/js/nivo-lightbox.js"></script>
 		<script src="assets/js/form-contact.js"></script>
 		<script src="assets/js/main.js"></script>
+
+
 		
 	</body>
 </html>
