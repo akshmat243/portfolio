@@ -416,10 +416,10 @@ a.back-to-top:focus {
 02. Start Header Area
 ========================================================================== */
 .navbar {
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .navbar-brand p {
-  font-size: 32px;
+  font-size: 24px;
   text-transform: uppercase;
   color: #ff0;
   font-weight: 700;
